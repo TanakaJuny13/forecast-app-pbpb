@@ -1,0 +1,7 @@
+{
+  "name": "forecast-app",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "vue-vite"
+}
