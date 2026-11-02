@@ -57,9 +57,8 @@ async function loadForecast() {
       },
     });
 
-    console.log(response);
     rows.value = toRows(response.data);
-    console.log(rows.value.length);
+    
   } catch (e) {
     console.error(e);
     if (axios.isAxiosError(e)) {
